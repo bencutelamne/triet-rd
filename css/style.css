@@ -1,0 +1,459 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	font-size: 14px;
+}
+.topbar{
+	width: 100%;
+	min-height: 50px;
+	background-color: #056CB6;
+	color: white;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	line-height: 50px;
+}
+.topbar a{
+	color: white;
+}
+.topbar a:hover{
+	color: black;
+	cursor: pointer;
+}
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	padding: 7px 15px;
+	color: black;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color: #056CB6;
+}
+.navbar .navbar-nav .nav-item .dropdown-item{
+	font-size:14px;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item{
+	color: white;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item:hover{
+	background-color: #F2C94C
+}
+main{
+	width: 100%;
+	min-height: 500px;
+}
+.btn-secondary{
+	background-color:#F2C94C;
+	color:white;
+}
+.btn-secondary:hover{
+	background-color:white;
+	color: #F2C94C;
+}
+.btn{
+	margin: 0;
+}
+.bottom-bar{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+}
+.container p{
+	line-height: 20px;
+}
+.sub-container ul li{
+	line-height: 15px;
+	font-size: 14px;
+}
+.sub-container ul li:hover{
+	color: #F2C94C;
+}
+.sub-container h3{
+	font-size:17px;
+	font-weight: bold;
+	line-height: 20px;
+}
+.gach-chan{
+	width: 80%;
+	padding-bottom: 10px;
+	border-bottom: 1px solid gold;
+}
+#service p{
+	font-size: 13px;
+}
+#service h{
+	font-size: 18px;
+	font-weight: bold;
+}
+#service h4{
+	font-size: 16px;
+	font-weight: bold;
+}
+#service a{
+	text-decoration: none;
+	color: black;
+}
+#service a:hover{
+	color: gold;
+}
+#service .post{
+	height: 370px;
+}
+.why{
+	width: 100%;
+	min-height: 200px;
+	background: url("../images/why.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#feel .noidung img{
+	width: 80px;
+	height: 80px;
+}
+#feel .item .noidung{
+	padding: 0 50px;
+	display: flex;
+	flex-direction: column;
+}
+.vien{
+	border: 2px solid #FFC141;
+	width: 80px;
+	height: 80px;
+}
+.border-circle{
+	width: 10%;
+	border: 1px solid white;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.title p {
+	font-size:15px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+.title a{
+	text-decoration: none;
+	color: black;
+}
+.title a:hover{
+	color:#F2C94C;
+}
+.bg-light2{
+	background-color:#F8FAF5;
+}
+/* ket thuc style cho main */
+#news .btn-temp button:hover{
+	background-color:#F2C94C;
+	border: 0;
+}
+.pageheader2{
+	width: 100%;
+	min-height: 300px;
+	background: url("../images/pageheader.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pageheader-2-text{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	justify-content: center;
+	width: 100%;
+	height: 350px;
+}
+.pageheader-2-text button{
+	max-width: 140px;
+	padding: 5px;
+}
+#team-doctor p1{
+	line-height: 15px;
+	font-size: 14px;
+	color:#555555;
+	padding-bottom: 5px;
+}
+.border-images-circle{
+	width: 50%;
+	border-radius: 50%;
+}
+.doctors{
+	padding: 0px;
+}
+.doctors p1{
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+}
+.doctors p2{
+	color: #F2C94C;
+	font-size: 14px;
+	line-height: 14px;
+}
+.text-bold{
+	font-weight: bold;
+}
+/* aboutus done */
+#socialpost hr{
+	height: 2.5px;
+	background-color: black;
+}
+.social_react{
+	width: 200px;
+	height: 30px;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 149.687%;
+}
+.each_post{
+	width: 100%;
+	min-height: 200px;
+}
+.each_post p a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-weight: 700;
+}
+.each_post p a:hover{
+	color: #F2C94C; 
+}
+.each_post p{
+	color: #777;
+	text-align: justify;
+	font-size: 14px;
+	font-weight: 400;
+}
+.btn-social{
+	border-radius: 4px;
+	width: 100px;
+	height: 40px;
+	font-size: 14px;
+	border: 0;
+}
+.btn-social:hover{
+	background-color: #F2C94C;
+}
+.btn-social a{
+	text-decoration: none;
+	color: white;
+}
+.each_box{
+	min-height: 115px;
+	width: 100%;
+}
+.search-box{
+	width: 100%;
+	height: 115px;
+	background-color: #F8FAF5;
+}
+.aside-box{
+	width: 100%;
+	min-height: 380px;
+	background-color: #F8FAF5;
+}
+.aside-box ul li{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.aside-box ul{
+	padding: 0;
+}
+.aside-box ul li i{
+	color: gold;
+}
+.aside-box ul li i:hover{
+	color: red;
+}
+.sub-aside-box{
+	display: none;
+}
+.aside-box ul li:hover .sub-aside-box{
+	display: block;
+}
+#socialpost .quote p1{
+	font-size: 18px;
+	color: #555;
+	font-style: italic;
+	line-height: 149.687%;
+}
+#socialpost .quote p{
+	color: #555;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 149.687%;
+}
+#socialpost .quote .line-vertical{
+	width: 8px;
+	height: 100px; 
+	margin: 0;
+	padding: 0;
+	background: #E7E7E7
+}
+#socialpost .post p{
+	color: #555555;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20.96px;
+}
+#socialpost .post p1{
+	color: #555555;
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 1;
+}
+.sub-container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#relation p{
+	margin: 0;
+	color: #777;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 149.687%; 
+}
+#relation h1{
+	font-size: 18px; 
+}
+#relation p1{
+	color: #333;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 149.687%;
+}
+#relation a{
+	text-decoration: none;
+	color: #C4C4C4;
+}
+#relation a h1:hover{
+	color: #F2C94C;
+}
+#comment h1{
+	font-size: 24px;
+	color: #333;
+}
+#comment p{
+	color: #C4C4C4;
+	font-size: 14px;
+	margin: 0;
+}
+#comment p1{
+	color: #777;
+	font-size: 14px;
+	margin:0
+}
+#comment button{
+	border-radius: 10px;
+	border: 0;
+}
+#comment button:hover{
+	background-color: #F2C94C;
+	color: white;
+}
+#after-socialpost hr{
+	height: 2px;
+	border: 0;
+	background-color: black;
+}
+#service p{
+	color: #333333;
+	font-size: 20px;
+	font-family: Roboto;
+	line-height: 29.94px;
+}
+#contact .ttlh h1{
+	color: #2F80ED;
+	font-size: 24px;
+	font-weight: 700;
+}
+#contact .dclh h1{
+	color: #333333;
+	font-size: 22px;
+}
+#contact .dclh p{
+	color: #555555;
+	font-size: 14px;
+	line-height: 20.96px;
+}
+#contact button:hover{
+	background-color: #F2C94C;
+	color: white;
+}
+footer hr{
+	height: 1.5px;
+	opacity: 1;
+	background-color: #FFC141;
+	border-top: 0;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+}
+footer a:hover{
+	color:#F2C94C;
+}
+#reaction-client .container-2 .reaction-post p1{
+	color: #056CB6;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20.96px;
+}
+#reaction-client .container-2 .reaction-post p{
+	color: #555555;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+}
+#reaction-client .container-2{
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+}
+#feedback .sub-container .boxcha{
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+#feedback .boxcon-r{
+	position: absolute;
+	top: 0;
+	right: 0px;
+	background-color: #C4C4C4;
+	width: 50px;
+	height: 20px;
+}
+#feedback .boxcon-l{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #C4C4C4;
+	width: 50px;
+	height: 20px;
+}
+#feedback .boxcon-l p{
+	font-size: 14px;
+	color: white;
+	line-height: 15px;
+	text-align: center;
+}
+#feedback .boxcon-r p{
+	font-size: 14px;
+	color: white;
+	line-height: 15px;
+	text-align: center;
+}
